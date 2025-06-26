@@ -2,6 +2,8 @@
 
 An interactive, community-maintained visualization of the Lightning Network ecosystem. Explore implementations, wallets, tools, and resources powering the future of Bitcoin payments.
 
+![Lightning Network Gallery Image](lngal_image.png)
+
 ## 🌟 Features
 
 - **Interactive Exploration**: Browse projects by category with expandable sections

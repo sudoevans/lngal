@@ -70,7 +70,7 @@ Our current categories are:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/okjodom/lngal
-   cd lngal-viz
+   cd lngal
    ```
 
 2. **Make your changes** to `lngal_data.json`
