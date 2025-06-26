@@ -10,18 +10,15 @@
           "links": [
             {
               "type": "GitHub",
-              "url": "https://github.com/lightningnetwork/lnd",
-              "citation": "[1, 2, 3]"
+              "url": "https://github.com/lightningnetwork/lnd"
             },
             {
               "type": "Website (Lightning Labs)",
-              "url": "https://lightning.engineering/",
-              "citation": "[4, 5, 6, 7]"
+              "url": "https://lightning.engineering/"
             },
             {
               "type": "API Docs",
-              "url": "https://api.lightning.community",
-              "citation": "[8, 2, 9]"
+              "url": "https://api.lightning.community"
             }
           ],
           "tags": ["Go", "Most Popular", "Full Node"]
@@ -32,13 +29,11 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://corelightning.org/",
-              "citation": ""
+              "url": "https://corelightning.org/"
             },
             {
               "type": "GitHub",
-              "url": "https://github.com/ElementsProject/lightning",
-              "citation": "[10, 11, 12]"
+              "url": "https://github.com/ElementsProject/lightning"
             }
           ],
           "tags": ["C", "Blockstream", "Full Node"]
@@ -49,13 +44,11 @@
           "links": [
             {
               "type": "GitHub",
-              "url": "https://github.com/ACINQ/eclair",
-              "citation": "[13, 14, 15, 16, 17, 18, 19]"
+              "url": "https://github.com/ACINQ/eclair"
             },
             {
               "type": "Website (API Docs)",
-              "url": "https://acinq.github.io/eclair/",
-              "citation": ""
+              "url": "https://acinq.github.io/eclair/"
             }
           ],
           "tags": ["Scala", "ACINQ", "Full Node"]
@@ -66,13 +59,11 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningdevkit.org/",
-              "citation": "[20, 21, 22]"
+              "url": "https://lightningdevkit.org/"
             },
             {
               "type": "GitHub",
-              "url": "https://github.com/lightningdevkit",
-              "citation": ""
+              "url": "https://github.com/lightningdevkit"
             }
           ],
           "tags": ["Rust", "SDK", "Flexible"]
@@ -95,8 +86,11 @@
           "links": [
             {
               "type": "GitHub",
-              "url": "https://github.com/lightning/bolts",
-              "citation": ""
+              "url": "https://github.com/lightning/bolts"
+            },
+            {
+              "type": "Discussions",
+              "url": "https://delvingbitcoin.org/tag/lightning"
             }
           ],
           "tags": ["Standards", "BOLT", "Specifications"]
@@ -113,8 +107,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://acinq.co",
-              "citation": ""
+              "url": "https://acinq.co"
             }
           ],
           "tags": ["LSP", "Phoenix", "Eclair"]
@@ -149,8 +142,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightning.engineering/",
-              "citation": "[4, 5, 6, 7]"
+              "url": "https://lightning.engineering/"
             }
           ],
           "tags": ["Management", "UI", "Lightning Labs"]
@@ -239,8 +231,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://btcpayserver.org/",
-              "citation": ""
+              "url": "https://btcpayserver.org/"
             }
           ],
           "tags": ["Self-Hosted", "Open Source", "Merchant"]
@@ -257,8 +248,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/zaprite",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/zaprite"
             }
           ],
           "tags": ["Invoicing", "Merchant"]
@@ -269,8 +259,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/tiankii",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/tiankii"
             }
           ],
           "tags": ["Non-Custodial", "Merchant"]
@@ -281,8 +270,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/tagcash",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/tagcash"
             }
           ],
           "tags": ["Payments", "Multi-service"]
@@ -293,8 +281,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/speed",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/speed"
             }
           ],
           "tags": ["Payment Processor"]
@@ -305,8 +292,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/nodeless",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/nodeless"
             }
           ],
           "tags": ["API-based", "Developer-friendly"]
@@ -317,8 +303,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/neutronpay",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/neutronpay"
             }
           ],
           "tags": ["Payment Solution"]
@@ -329,8 +314,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/pouch",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/pouch"
             }
           ],
           "tags": ["Wallet", "Merchant"]
@@ -371,8 +355,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightning.engineering/",
-              "citation": "[4, 5, 6, 7]"
+              "url": "https://lightning.engineering/"
             }
           ],
           "tags": ["Management", "Lightning Labs"]
@@ -437,8 +420,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://zebedee.io/",
-              "citation": ""
+              "url": "https://zebedee.io/"
             }
           ],
           "tags": ["Gaming", "Infrastructure", "API"]
@@ -449,8 +431,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/thndr",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/thndr"
             }
           ],
           "tags": ["Gaming", "Rewards"]
@@ -461,8 +442,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/saving-satoshi",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/saving-satoshi"
             }
           ],
           "tags": ["Educational", "Gaming"]
@@ -473,8 +453,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/nakamoto-roulette",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/nakamoto-roulette"
             }
           ],
           "tags": ["Gambling", "Privacy-focused"]
@@ -485,8 +464,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/ln-scratch",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/ln-scratch"
             }
           ],
           "tags": ["Gambling", "Scratch Cards"]
@@ -497,8 +475,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/hypervane",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/hypervane"
             }
           ],
           "tags": ["FPS", "Gaming", "Competitive"]
@@ -521,8 +498,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://value4value.info/",
-              "citation": ""
+              "url": "https://value4value.info/"
             }
           ],
           "tags": ["V4V", "Concept", "Monetization"]
@@ -533,8 +509,7 @@
           "links": [
             {
               "type": "Platform",
-              "url": "https://substack.com",
-              "citation": ""
+              "url": "https://substack.com"
             }
           ],
           "tags": ["Content Payments"]
@@ -557,8 +532,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/mash",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/mash"
             }
           ],
           "tags": ["Monetization", "Tools"]
@@ -569,8 +543,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/stores/tagcash",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/stores/tagcash"
             }
           ],
           "tags": ["Multi-service", "Content"]
@@ -641,8 +614,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://lightningnetwork.plus/",
-              "citation": ""
+              "url": "https://lightningnetwork.plus/"
             }
           ],
           "tags": ["Community", "Liquidity", "Marketplace"]
@@ -659,18 +631,15 @@
           "links": [
             {
               "type": "Lightning Labs Discord",
-              "url": "https://discord.gg/lnd",
-              "citation": ""
+              "url": "https://discord.gg/lnd"
             },
             {
               "type": "LDK Discord",
-              "url": "https://discord.gg/5AcknnMfBw",
-              "citation": ""
+              "url": "https://discord.gg/5AcknnMfBw"
             },
             {
               "type": "Lightning AI Discord",
-              "url": "https://lightning.ai/community",
-              "citation": "[23, 24]"
+              "url": "https://lightning.ai/community"
             }
           ],
           "tags": ["Community", "Chat", "Support"]
@@ -681,8 +650,7 @@
           "links": [
             {
               "type": "Various Lightning Groups",
-              "url": "https://t.me/lightningnetwork",
-              "citation": ""
+              "url": "https://t.me/lightningnetwork"
             }
           ],
           "tags": ["Community", "Chat", "Mobile"]
@@ -699,8 +667,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://btcplusplus.dev/conf/berlin25",
-              "citation": ""
+              "url": "https://btcplusplus.dev/conf/berlin25"
             }
           ],
           "tags": ["Programmable Payments", "Hackathons", "Workshops"]
@@ -711,8 +678,7 @@
           "links": [
             {
               "type": "Website",
-              "url": "https://academy.moralis.io/courses/lightning-network-lightning-app-programming",
-              "citation": "[25, 7]"
+              "url": "https://academy.moralis.io/courses/lightning-network-lightning-app-programming"
             }
           ],
           "tags": ["Education", "Course", "Programming"]
@@ -729,8 +695,7 @@
           "links": [
             {
               "type": "PDF",
-              "url": "https://lightning.network/lightning-network-paper.pdf",
-              "citation": ""
+              "url": "https://lightning.network/lightning-network-paper.pdf"
             }
           ],
           "tags": []
