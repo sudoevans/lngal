@@ -88,7 +88,7 @@ Our current categories are:
 5. **Commit and push**:
    ```bash
    git add lngal_data.json
-   git commit -m "Add [Project Name] to [Category]"
+   git commit -m "add [Project Name] to [Category]"
    git push origin your-branch-name
    ```
 

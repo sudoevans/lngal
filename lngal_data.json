@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Core Lightning Network Implementations",
+      "name": "Lightning Network Implementations",
       "description": "The foundational software that powers the Lightning Network. These are full implementations of the Lightning protocol.",
       "items": [
         {
@@ -94,6 +94,21 @@
             }
           ],
           "tags": ["Standards", "BOLT", "Specifications"]
+        },
+        {
+          "project_name": "Bitcoin Lightning Improvement Proposal (bLIP)",
+          "project_level": "Technical Standards",
+          "links": [
+            {
+              "type": "GitHub",
+              "url": "https://github.com/lightning/blips"
+            },
+            {
+              "type": "Discussions",
+              "url": "https://delvingbitcoin.org/tag/lightning"
+            }
+          ],
+          "tags": ["Standards", "BLIP", "Specifications"]
         }
       ]
     },
