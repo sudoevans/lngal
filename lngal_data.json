@@ -1,0 +1,741 @@
+{
+  "categories": [
+    {
+      "name": "Core Lightning Network Implementations",
+      "description": "The foundational software that powers the Lightning Network. These are full implementations of the Lightning protocol.",
+      "items": [
+        {
+          "project_name": "Lightning Network Daemon (LND)",
+          "project_level": "Protocol Implementation (Full Node)",
+          "links": [
+            {
+              "type": "GitHub",
+              "url": "https://github.com/lightningnetwork/lnd",
+              "citation": "[1, 2, 3]"
+            },
+            {
+              "type": "Website (Lightning Labs)",
+              "url": "https://lightning.engineering/",
+              "citation": "[4, 5, 6, 7]"
+            },
+            {
+              "type": "API Docs",
+              "url": "https://api.lightning.community",
+              "citation": "[8, 2, 9]"
+            }
+          ],
+          "tags": ["Go", "Most Popular", "Full Node"]
+        },
+        {
+          "project_name": "Core Lightning (CLN)",
+          "project_level": "Protocol Implementation (Full Node)",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://corelightning.org/",
+              "citation": ""
+            },
+            {
+              "type": "GitHub",
+              "url": "https://github.com/ElementsProject/lightning",
+              "citation": "[10, 11, 12]"
+            }
+          ],
+          "tags": ["C", "Blockstream", "Full Node"]
+        },
+        {
+          "project_name": "Eclair",
+          "project_level": "Protocol Implementation (Full Node)",
+          "links": [
+            {
+              "type": "GitHub",
+              "url": "https://github.com/ACINQ/eclair",
+              "citation": "[13, 14, 15, 16, 17, 18, 19]"
+            },
+            {
+              "type": "Website (API Docs)",
+              "url": "https://acinq.github.io/eclair/",
+              "citation": ""
+            }
+          ],
+          "tags": ["Scala", "ACINQ", "Full Node"]
+        },
+        {
+          "project_name": "Lightning Development Kit (LDK)",
+          "project_level": "Software Development Kit (SDK) / Lightning Implementation",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningdevkit.org/",
+              "citation": "[20, 21, 22]"
+            },
+            {
+              "type": "GitHub",
+              "url": "https://github.com/lightningdevkit",
+              "citation": ""
+            }
+          ],
+          "tags": ["Rust", "SDK", "Flexible"]
+        },
+        {
+          "project_name": "Python Lightning (by Electrum)",
+          "project_level": "Protocol Implementation",
+          "links": [],
+          "tags": ["Python"]
+        }
+      ]
+    },
+    {
+      "name": "Standards and Specifications",
+      "description": "These documents define the technical rules for the Lightning Network, ensuring interoperability between different implementations.",
+      "items": [
+        {
+          "project_name": "Lightning Network Specifications (BOLTs)",
+          "project_level": "Technical Standards",
+          "links": [
+            {
+              "type": "GitHub",
+              "url": "https://github.com/lightning/bolts",
+              "citation": ""
+            }
+          ],
+          "tags": ["Standards", "BOLT", "Specifications"]
+        }
+      ]
+    },
+    {
+      "name": "Lightning Service Providers (LSPs) & Infrastructure",
+      "description": "LSPs offer services that simplify the operation and liquidity management of Lightning nodes, often for businesses or users who prefer not to run their own infrastructure.",
+      "items": [
+        {
+          "project_name": "ACINQ",
+          "project_level": "LSP / Phoenix Wallet Provider",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://acinq.co",
+              "citation": ""
+            }
+          ],
+          "tags": ["LSP", "Phoenix", "Eclair"]
+        },
+        {
+          "project_name": "Voltage",
+          "project_level": "Lightning-as-a-Service (LaaS) / LSP",
+          "links": [],
+          "tags": ["Managed Nodes", "Enterprise"]
+        },
+        {
+          "project_name": "Lightspark",
+          "project_level": "Enterprise Infrastructure / LSP",
+          "links": [],
+          "tags": ["Enterprise", "API-based"]
+        },
+        {
+          "project_name": "Blockstream Greenlight",
+          "project_level": "Cloud-based Non-Custodial Node Service / LSP",
+          "links": [],
+          "tags": ["Non-Custodial", "Cloud"]
+        },
+        {
+          "project_name": "Lightning Loop",
+          "project_level": "Financial Service (Liquidity Management)",
+          "links": [],
+          "tags": ["Liquidity", "Submarine Swaps"]
+        },
+        {
+          "project_name": "Lightning Terminal",
+          "project_level": "Node Management Tool / Web UI",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightning.engineering/",
+              "citation": "[4, 5, 6, 7]"
+            }
+          ],
+          "tags": ["Management", "UI", "Lightning Labs"]
+        }
+      ]
+    },
+    {
+      "name": "Wallets",
+      "description": "User-facing applications designed to facilitate instant and low-cost transactions over the Lightning Network. They can be custodial (third-party holds keys) or non-custodial (user holds keys).",
+      "items": [
+        {
+          "project_name": "Wallet of Satoshi",
+          "project_level": "Custodial Mobile Wallet",
+          "links": [],
+          "tags": ["Custodial", "User-Friendly", "Mobile"]
+        },
+        {
+          "project_name": "Breez",
+          "project_level": "Non-Custodial Mobile Wallet",
+          "links": [],
+          "tags": ["Non-Custodial", "Mobile", "LSP Integration"]
+        },
+        {
+          "project_name": "Phoenix (by ACINQ)",
+          "project_level": "Non-Custodial Mobile Wallet",
+          "links": [],
+          "tags": ["Non-Custodial", "ACINQ", "Mobile"]
+        },
+        {
+          "project_name": "Muun",
+          "project_level": "Non-Custodial Mobile Wallet",
+          "links": [],
+          "tags": ["Non-Custodial", "Submarine Swaps"]
+        },
+        {
+          "project_name": "Blue Wallet",
+          "project_level": "Hybrid Wallet (Custodial & Non-Custodial options)",
+          "links": [],
+          "tags": ["Hybrid", "Mobile", "LNDHub"]
+        },
+        {
+          "project_name": "Zap",
+          "project_level": "Non-Custodial Wallet",
+          "links": [],
+          "tags": ["Non-Custodial", "Connects to own node"]
+        },
+        {
+          "project_name": "Electrum",
+          "project_level": "Non-Custodial Desktop Wallet",
+          "links": [],
+          "tags": ["Desktop", "Non-Custodial", "Python"]
+        },
+        {
+          "project_name": "Bitcoin Lightning Wallet (BLW)",
+          "project_level": "Non-Custodial Mobile Wallet",
+          "links": [],
+          "tags": ["Non-Custodial", "Android", "Eclair-based"]
+        },
+        {
+          "project_name": "Exodus",
+          "project_level": "Non-Custodial Multi-platform Wallet",
+          "links": [],
+          "tags": ["Multi-platform", "Non-Custodial"]
+        },
+        {
+          "project_name": "Best Wallet",
+          "project_level": "Multi-platform Wallet",
+          "links": [],
+          "tags": ["Multi-platform"]
+        },
+        {
+          "project_name": "Zeus Wallet",
+          "project_level": "Non-Custodial Mobile Wallet",
+          "links": [],
+          "tags": ["Non-Custodial", "Remote Node Control"]
+        }
+      ]
+    },
+    {
+      "name": "Payment Processors & Merchant Solutions",
+      "description": "Tools and services enabling businesses and merchants to accept Bitcoin payments via the Lightning Network.",
+      "items": [
+        {
+          "project_name": "BTCPay Server",
+          "project_level": "Self-Hosted Payment Processor",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://btcpayserver.org/",
+              "citation": ""
+            }
+          ],
+          "tags": ["Self-Hosted", "Open Source", "Merchant"]
+        },
+        {
+          "project_name": "Strike",
+          "project_level": "Payments App / Remittance Service",
+          "links": [],
+          "tags": ["Fiat Integration", "Remittance"]
+        },
+        {
+          "project_name": "Zaprite",
+          "project_level": "Payment Processor",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/zaprite",
+              "citation": ""
+            }
+          ],
+          "tags": ["Invoicing", "Merchant"]
+        },
+        {
+          "project_name": "Tiankii",
+          "project_level": "Non-Custodial Merchant Platform",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/tiankii",
+              "citation": ""
+            }
+          ],
+          "tags": ["Non-Custodial", "Merchant"]
+        },
+        {
+          "project_name": "Tagcash",
+          "project_level": "Payments / Services / Wallets",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/tagcash",
+              "citation": ""
+            }
+          ],
+          "tags": ["Payments", "Multi-service"]
+        },
+        {
+          "project_name": "Speed",
+          "project_level": "Payment Processor",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/speed",
+              "citation": ""
+            }
+          ],
+          "tags": ["Payment Processor"]
+        },
+        {
+          "project_name": "Nodeless",
+          "project_level": "Payment Processor",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/nodeless",
+              "citation": ""
+            }
+          ],
+          "tags": ["API-based", "Developer-friendly"]
+        },
+        {
+          "project_name": "Neutronpay",
+          "project_level": "Lightning Payment Solution",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/neutronpay",
+              "citation": ""
+            }
+          ],
+          "tags": ["Payment Solution"]
+        },
+        {
+          "project_name": "Pouch",
+          "project_level": "Wallet & Merchant Solution",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/pouch",
+              "citation": ""
+            }
+          ],
+          "tags": ["Wallet", "Merchant"]
+        },
+        {
+          "project_name": "OSMO",
+          "project_level": "Cross-Border Payments Service",
+          "links": [],
+          "tags": ["Cross-Border", "Remittance"]
+        }
+      ]
+    },
+    {
+      "name": "Node Management Tools & Web Interfaces",
+      "description": "Applications and dashboards designed to help users operate, monitor, and manage their Lightning Network nodes.",
+      "items": [
+        {
+          "project_name": "Ride The Lightning (RTL)",
+          "project_level": "Node Management Dashboard",
+          "links": [],
+          "tags": ["Web UI", "Multi-implementation"]
+        },
+        {
+          "project_name": "Thunderhub",
+          "project_level": "Node Management Dashboard",
+          "links": [],
+          "tags": ["Web UI", "LND"]
+        },
+        {
+          "project_name": "LNCLi Web",
+          "project_level": "LND Web Client",
+          "links": [],
+          "tags": ["User-Friendly", "Web Client"]
+        },
+        {
+          "project_name": "Lightning Terminal",
+          "project_level": "Node Management Tool / Web UI",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightning.engineering/",
+              "citation": "[4, 5, 6, 7]"
+            }
+          ],
+          "tags": ["Management", "Lightning Labs"]
+        },
+        {
+          "project_name": "LNDG",
+          "project_level": "LND Dashboard",
+          "links": [],
+          "tags": ["Dashboard", "Analytics"]
+        },
+        {
+          "project_name": "Torq",
+          "project_level": "Lightning Network Management Platform",
+          "links": [],
+          "tags": ["Advanced Management"]
+        }
+      ]
+    },
+    {
+      "name": "Network Explorers & Analytics",
+      "description": "Tools for visualizing the Lightning Network's topology, channels, and payment activity.",
+      "items": [
+        {
+          "project_name": "1ML",
+          "project_level": "Lightning Network Explorer",
+          "links": [],
+          "tags": ["Comprehensive", "Explorer"]
+        },
+        {
+          "project_name": "Amboss Space",
+          "project_level": "Lightning Network Analytics / Explorer",
+          "links": [],
+          "tags": ["Advanced Analytics", "Explorer"]
+        },
+        {
+          "project_name": "ACINQ Lightning Explorer",
+          "project_level": "Lightning Network Explorer",
+          "links": [],
+          "tags": ["Explorer", "ACINQ"]
+        },
+        {
+          "project_name": "LN Lighthouse",
+          "project_level": "Visual Lightning Network Explorer",
+          "links": [],
+          "tags": ["Visual", "Explorer"]
+        },
+        {
+          "project_name": "Mempool Lightning Explorer",
+          "project_level": "Bitcoin and Lightning Explorer",
+          "links": [],
+          "tags": ["Explorer", "Combined View"]
+        }
+      ]
+    },
+    {
+      "name": "Gaming Platforms & Applications",
+      "description": "Games and platforms that leverage the Lightning Network for instant, low-cost in-game microtransactions and rewards.",
+      "items": [
+        {
+          "project_name": "ZEBEDEE",
+          "project_level": "Gaming Infrastructure Provider",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://zebedee.io/",
+              "citation": ""
+            }
+          ],
+          "tags": ["Gaming", "Infrastructure", "API"]
+        },
+        {
+          "project_name": "THNDR",
+          "project_level": "Competitive Gaming Platform",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/thndr",
+              "citation": ""
+            }
+          ],
+          "tags": ["Gaming", "Rewards"]
+        },
+        {
+          "project_name": "Saving Satoshi",
+          "project_level": "Educational Game",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/saving-satoshi",
+              "citation": ""
+            }
+          ],
+          "tags": ["Educational", "Gaming"]
+        },
+        {
+          "project_name": "Nakamoto Roulette",
+          "project_level": "Gambling Platform",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/nakamoto-roulette",
+              "citation": ""
+            }
+          ],
+          "tags": ["Gambling", "Privacy-focused"]
+        },
+        {
+          "project_name": "LN Scratch",
+          "project_level": "Gambling Platform",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/ln-scratch",
+              "citation": ""
+            }
+          ],
+          "tags": ["Gambling", "Scratch Cards"]
+        },
+        {
+          "project_name": "HyperVane",
+          "project_level": "FPS Arena Shooter Game",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/hypervane",
+              "citation": ""
+            }
+          ],
+          "tags": ["FPS", "Gaming", "Competitive"]
+        },
+        {
+          "project_name": "Online Casinos with Lightning Support",
+          "project_level": "Gambling Platforms",
+          "links": [],
+          "tags": ["Gambling", "Various"]
+        }
+      ]
+    },
+    {
+      "name": "Content Monetization & Streaming Platforms",
+      "description": "Platforms and protocols enabling content creators to receive direct, instant, and granular payments from their audience.",
+      "items": [
+        {
+          "project_name": "Value4Value",
+          "project_level": "Content Monetization Concept",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://value4value.info/",
+              "citation": ""
+            }
+          ],
+          "tags": ["V4V", "Concept", "Monetization"]
+        },
+        {
+          "project_name": "Substack Integration",
+          "project_level": "Content Platform Integration (Payments)",
+          "links": [
+            {
+              "type": "Platform",
+              "url": "https://substack.com",
+              "citation": ""
+            }
+          ],
+          "tags": ["Content Payments"]
+        },
+        {
+          "project_name": "Podcasting 2.0",
+          "project_level": "Content Streaming Protocol (Boosts, Streaming Payments)",
+          "links": [],
+          "tags": ["Podcasting", "Streaming Sats", "Boosts"]
+        },
+        {
+          "project_name": "Wavlake",
+          "project_level": "Music Streaming Platform",
+          "links": [],
+          "tags": ["Music", "Streaming", "V4V"]
+        },
+        {
+          "project_name": "Mash",
+          "project_level": "Content Monetization Toolkit",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/mash",
+              "citation": ""
+            }
+          ],
+          "tags": ["Monetization", "Tools"]
+        },
+        {
+          "project_name": "Tagcash",
+          "project_level": "Payments / Services / Wallets",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/stores/tagcash",
+              "citation": ""
+            }
+          ],
+          "tags": ["Multi-service", "Content"]
+        }
+      ]
+    },
+    {
+      "name": "Emerging Applications & Concepts",
+      "description": "Newer or more experimental use cases that demonstrate the versatility of the Lightning Network beyond its primary payment function.",
+      "items": [
+        {
+          "project_name": "L402 (formerly LSAT)",
+          "project_level": "Protocol (HTTP 402 Payment Required)",
+          "links": [],
+          "tags": ["Protocol", "API Monetization", "Authentication"]
+        },
+        {
+          "project_name": "DeFi Concepts (Yield Generation)",
+          "project_level": "Emerging Concept",
+          "links": [],
+          "tags": ["Non-Custodial Yield", "Liquidity Provision"]
+        },
+        {
+          "project_name": "Nostr Protocol (Zaps)",
+          "project_level": "Social Media Protocol (Micro-tipping)",
+          "links": [],
+          "tags": ["Social Media", "Zaps", "Micro-payments"]
+        },
+        {
+          "project_name": "Atomic Swaps (Cross-Chain)",
+          "project_level": "Protocol/Concept",
+          "links": [],
+          "tags": ["Cross-Chain", "Swaps", "Interoperability"]
+        }
+      ]
+    },
+    {
+      "name": "Security Tools",
+      "description": "Tools designed to enhance the security and integrity of Lightning Network nodes and operations.",
+      "items": [
+        {
+          "project_name": "Validating Lightning Signer (VLS)",
+          "project_level": "Security Framework",
+          "links": [],
+          "tags": ["Security", "Signing", "Validation"]
+        },
+        {
+          "project_name": "Sphinx Key",
+          "project_level": "Hardware Security Module (HSM)",
+          "links": [],
+          "tags": ["HSM", "Hardware Security"]
+        },
+        {
+          "project_name": "Lightning Vault",
+          "project_level": "Secure Key Management Solution",
+          "links": [],
+          "tags": ["Key Management", "Security"]
+        }
+      ]
+    },
+    {
+      "name": "Community & Educational Resources",
+      "description": "Platforms and materials for developers to learn, collaborate, and stay updated on the Lightning Network.",
+      "items": [
+        {
+          "project_name": "Lightning Network Plus",
+          "project_level": "Community Platform / Liquidity Marketplace",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lightningnetwork.plus/",
+              "citation": ""
+            }
+          ],
+          "tags": ["Community", "Liquidity", "Marketplace"]
+        },
+        {
+          "project_name": "Lightning-Dev Mailing List",
+          "project_level": "Mailing List",
+          "links": [],
+          "tags": ["Development", "Discussion", "Technical"]
+        },
+        {
+          "project_name": "Discord Servers",
+          "project_level": "Chat Platform / Community",
+          "links": [
+            {
+              "type": "Lightning Labs Discord",
+              "url": "https://discord.gg/lnd",
+              "citation": ""
+            },
+            {
+              "type": "LDK Discord",
+              "url": "https://discord.gg/5AcknnMfBw",
+              "citation": ""
+            },
+            {
+              "type": "Lightning AI Discord",
+              "url": "https://lightning.ai/community",
+              "citation": "[23, 24]"
+            }
+          ],
+          "tags": ["Community", "Chat", "Support"]
+        },
+        {
+          "project_name": "Telegram Groups",
+          "project_level": "Chat Platform / Community",
+          "links": [
+            {
+              "type": "Various Lightning Groups",
+              "url": "https://t.me/lightningnetwork",
+              "citation": ""
+            }
+          ],
+          "tags": ["Community", "Chat", "Mobile"]
+        },
+        {
+          "project_name": "IRC (Internet Relay Chat)",
+          "project_level": "Chat Platform / Community",
+          "links": [],
+          "tags": ["IRC", "Technical Discussion"]
+        },
+        {
+          "project_name": "Bitcoin++ Global Series",
+          "project_level": "Conference / Workshop Series",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://btcplusplus.dev/conf/berlin25",
+              "citation": ""
+            }
+          ],
+          "tags": ["Programmable Payments", "Hackathons", "Workshops"]
+        },
+        {
+          "project_name": "Moralis Academy - Lightning Network & Lightning App Programming Course",
+          "project_level": "Online Course",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://academy.moralis.io/courses/lightning-network-lightning-app-programming",
+              "citation": "[25, 7]"
+            }
+          ],
+          "tags": ["Education", "Course", "Programming"]
+        },
+        {
+          "project_name": "O'Reilly - Mastering the Lightning Network",
+          "project_level": "Book / Technical Resource",
+          "links": [],
+          "tags": ["Book", "Technical", "Comprehensive"]
+        },
+        {
+          "project_name": "Lightning Network Whitepaper",
+          "project_level": "Foundational Document",
+          "links": [
+            {
+              "type": "PDF",
+              "url": "https://lightning.network/lightning-network-paper.pdf",
+              "citation": ""
+            }
+          ],
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

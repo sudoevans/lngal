@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightning Network Gallery - Interactive Project Explorer</title>
+    <meta name="description" content="Explore the Lightning Network ecosystem - implementations, wallets, tools, and resources">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>⚡ Lightning Network Gallery</h1>
+            <p class="tagline">Explore the Lightning Network Ecosystem</p>
+        </div>
+    </header>
+
+    <nav class="controls">
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search projects, tags, or descriptions..." aria-label="Search projects">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <select id="categoryFilter" aria-label="Filter by category">
+                    <option value="">All Categories</option>
+                </select>
+                <button id="statsToggle" class="stats-btn">📊 Stats</button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <!-- Stats Dashboard (hidden by default) -->
+            <section id="statsPanel" class="stats-panel hidden">
+                <h2>Project Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <span class="stat-number" id="totalProjects">0</span>
+                        <span class="stat-label">Total Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="totalCategories">0</span>
+                        <span class="stat-label">Categories</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="projectsWithLinks">0</span>
+                        <span class="stat-label">Projects with Links</span>
+                    </div>
+                </div>
+                <div id="categoryBreakdown" class="category-breakdown"></div>
+            </section>
+
+            <!-- Tag Cloud -->
+            <section id="tagCloud" class="tag-cloud">
+                <h2>Popular Tags</h2>
+                <div id="tagContainer" class="tag-container"></div>
+            </section>
+
+            <!-- Categories and Projects -->
+            <section id="categoriesContainer" class="categories">
+                <!-- Categories will be dynamically inserted here -->
+            </section>
+
+            <!-- Loading indicator -->
+            <div id="loadingIndicator" class="loading">
+                <span>Loading Lightning Network projects...</span>
+            </div>
+
+            <!-- Error message -->
+            <div id="errorMessage" class="error-message hidden">
+                <p>Unable to load project data. Please try refreshing the page.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Lightning Network Gallery is open source. <a href="https://github.com/yourusername/lngal-viz" target="_blank" rel="noopener">Contribute on GitHub</a></p>
+            <p>Data last updated: <span id="lastUpdated">Loading...</span></p>
+        </div>
+    </footer>
+
+    <script src="js/components.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
