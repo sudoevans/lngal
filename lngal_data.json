@@ -217,12 +217,6 @@
           "tags": ["Non-Custodial", "Android", "Eclair-based"]
         },
         {
-          "project_name": "Exodus",
-          "project_level": "Non-Custodial Multi-platform Wallet",
-          "links": [],
-          "tags": ["Multi-platform", "Non-Custodial"]
-        },
-        {
           "project_name": "Best Wallet",
           "project_level": "Multi-platform Wallet",
           "links": [],
