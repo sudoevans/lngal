@@ -192,6 +192,17 @@
           "tags": ["Non-Custodial", "ACINQ", "Mobile"]
         },
         {
+          "project_name": "Blink",
+          "project_level": "Custodial Mobile Wallet",
+          "links": [
+            {
+              "type": "Play Store",
+              "url": "https://play.google.com/store/apps/details?id=com.galoyapp/"
+            }
+          ],
+          "tags": ["Custodial", "User-Friendly", "Mobile"]
+        },
+        {
           "project_name": "Muun",
           "project_level": "Non-Custodial Mobile Wallet",
           "links": [],
