@@ -223,7 +223,12 @@
         {
           "project_name": "Electrum",
           "project_level": "Non-Custodial Desktop Wallet",
-          "links": ["https://electrum.org/"],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://electrum.org/"
+            }
+          ],
           "tags": ["Desktop", "Non-Custodial", "Python"]
         },
         {
@@ -252,13 +257,23 @@
          {
           "project_name": "Exodus Wallet",
           "project_level": "Non-Custodial Mobile Wallet",
-          "links": ["https://exodus.com/"],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://exodus.com/"
+            }
+          ],
           "tags": ["Self-Custodial", "User-Friendly", "Mobile","Hot-wallet"]
         },
         {
           "project_name": "Zeus Wallet",
           "project_level": "Non-Custodial Mobile Wallet",
-          "links": ["https://zeusln.com/"],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://zeusln.com/"
+            }
+          ],
           "tags": ["Non-Custodial", "Remote Node Control"]
         }
       ]
