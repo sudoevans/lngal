@@ -238,6 +238,12 @@
           ],
           "tags": ["Community-Custodial", "Fiat Integration", "Wallet", "Ecash"]
         },
+         {
+          "project_name": "Exodus Wallet",
+          "project_level": "Non-Custodial Mobile Wallet",
+          "links": ["https://exodus.com/"],
+          "tags": ["Self-Custodial", "User-Friendly", "Mobile","Hot-wallet"]
+        },
         {
           "project_name": "Zeus Wallet",
           "project_level": "Non-Custodial Mobile Wallet",
