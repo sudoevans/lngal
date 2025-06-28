@@ -223,7 +223,7 @@
         {
           "project_name": "Electrum",
           "project_level": "Non-Custodial Desktop Wallet",
-          "links": [],
+          "links": ["https://electrum.org/"],
           "tags": ["Desktop", "Non-Custodial", "Python"]
         },
         {
