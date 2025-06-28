@@ -228,6 +228,17 @@
           "tags": ["Multi-platform"]
         },
         {
+          "project_name": "Bitsacco Wallet",
+          "project_level": "Chama and personal savings within a SACCO built on bitcoin",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://bitsacco.com/"
+            }
+          ],
+          "tags": ["Community-Custodial", "Fiat Integration", "Wallet", "Ecash"]
+        },
+        {
           "project_name": "Zeus Wallet",
           "project_level": "Non-Custodial Mobile Wallet",
           "links": [],
