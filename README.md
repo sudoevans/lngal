@@ -125,13 +125,6 @@ python -m json.tool lngal_data.json
 # Or use online tools like JSONLint
 ```
 
-## ⚡ Performance
-
-- **< 2 second** page load time
-- **< 1 second** time to first meaningful paint
-- **Zero build process** - runs directly in browser
-- **Optimized assets** - minimal dependencies
-
 ## 🔒 Security
 
 - Content Security Policy headers
