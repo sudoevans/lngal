@@ -241,7 +241,7 @@
         {
           "project_name": "Zeus Wallet",
           "project_level": "Non-Custodial Mobile Wallet",
-          "links": [],
+          "links": ["https://zeusln.com/"],
           "tags": ["Non-Custodial", "Remote Node Control"]
         }
       ]
