@@ -45,7 +45,7 @@ This is a static web application built with:
 ```
 lngal/
 ├── index.html              # Main application
-├── css/styles.css         # All styling
+├── styles.css         # All styling
 ├── js/
 │   ├── app.js            # Core application logic
 │   └── components.js     # UI component functions
