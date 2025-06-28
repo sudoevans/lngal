@@ -275,6 +275,20 @@
             }
           ],
           "tags": ["Non-Custodial", "Remote Node Control"]
+        },
+        {
+          "project_name": "Bitnob",
+          "project_level": "Custodial mobile Wallet",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://bitnob.com"
+            }
+          ],
+          "tags": [
+            "Custodial",
+            "Multi-platform"
+          ]
         }
       ]
     },
