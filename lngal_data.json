@@ -171,13 +171,23 @@
         {
           "project_name": "Wallet of Satoshi",
           "project_level": "Custodial Mobile Wallet",
-          "links": [],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://www.walletofsatoshi.com/"
+            }
+          ],
           "tags": ["Custodial", "User-Friendly", "Mobile"]
         },
         {
           "project_name": "Breez",
           "project_level": "Non-Custodial Mobile Wallet",
-          "links": [],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://breez.technology"
+            }
+          ],
           "tags": ["Non-Custodial", "Mobile", "LSP Integration"]
         },
         {
@@ -205,13 +215,23 @@
         {
           "project_name": "Muun",
           "project_level": "Non-Custodial Mobile Wallet",
-          "links": [],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://muun.com/"
+            }
+          ],
           "tags": ["Non-Custodial", "Submarine Swaps"]
         },
         {
           "project_name": "Blue Wallet",
           "project_level": "Hybrid Wallet (Custodial & Non-Custodial options)",
-          "links": [],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://bluewallet.io/"
+            }
+          ],
           "tags": ["Hybrid", "Mobile", "LNDHub"]
         },
         {
@@ -254,17 +274,6 @@
           ],
           "tags": ["Community-Custodial", "Fiat Integration", "Wallet", "Ecash"]
         },
-         {
-          "project_name": "Exodus Wallet",
-          "project_level": "Non-Custodial Mobile Wallet",
-          "links": [
-            {
-              "type": "Website",
-              "url": "https://exodus.com/"
-            }
-          ],
-          "tags": ["Self-Custodial", "User-Friendly", "Mobile","Hot-wallet"]
-        },
         {
           "project_name": "Zeus Wallet",
           "project_level": "Non-Custodial Mobile Wallet",
@@ -285,10 +294,7 @@
               "url": "https://bitnob.com"
             }
           ],
-          "tags": [
-            "Custodial",
-            "Multi-platform"
-          ]
+          "tags": ["Custodial", "Multi-platform"]
         }
       ]
     },
@@ -658,7 +664,13 @@
               "url": "https://lnemail.net/"
             }
           ],
-          "tags": ["Privacy", "Email", "Anonymous", "Lightning Payments", "Disposable Email"]
+          "tags": [
+            "Privacy",
+            "Email",
+            "Anonymous",
+            "Lightning Payments",
+            "Disposable Email"
+          ]
         }
       ]
     },
