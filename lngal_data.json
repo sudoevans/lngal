@@ -183,7 +183,12 @@
         {
           "project_name": "Phoenix (by ACINQ)",
           "project_level": "Non-Custodial Mobile Wallet",
-          "links": [],
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://phoenix.acinq.co/"
+            }
+          ],
           "tags": ["Non-Custodial", "ACINQ", "Mobile"]
         },
         {
