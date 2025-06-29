@@ -648,6 +648,17 @@
           "project_level": "Protocol/Concept",
           "links": [],
           "tags": ["Cross-Chain", "Swaps", "Interoperability"]
+        },
+        {
+          "project_name": "LNemail",
+          "project_level": "Anonymous Email Service",
+          "links": [
+            {
+              "type": "Website",
+              "url": "https://lnemail.net/"
+            }
+          ],
+          "tags": ["Privacy", "Email", "Anonymous", "Lightning Payments", "Disposable Email"]
         }
       ]
     },
