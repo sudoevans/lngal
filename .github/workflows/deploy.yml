@@ -27,7 +27,7 @@ jobs:
       - name: Validate JSON structure
         run: |
           echo "🔍 Validating JSON syntax..."
-          python -m json.tool lngal_data.json > /dev/null
+          python3 -m json.tool lngal_data.json > /dev/null
           echo "✅ JSON syntax is valid"
 
           echo "🔍 Checking required fields..."
@@ -38,7 +38,7 @@ jobs:
           fi
 
           # Check that there's at least one category
-          category_count=$(python -c "import json; data=json.load(open('lngal_data.json')); print(len(data.get('categories', [])))")
+          category_count=$(python3 -c "import json; data=json.load(open('lngal_data.json')); print(len(data.get('categories', [])))")
           if [ "$category_count" -eq 0 ]; then
             echo "❌ No categories found in JSON"
             exit 1
@@ -46,6 +46,56 @@ jobs:
 
           echo "✅ Found $category_count categories"
           echo "✅ JSON structure validation passed"
+
+      - name: Validate project links
+        run: |
+          echo "🔍 Validating project links format..."
+          python3 -c "
+          import json
+          import sys
+
+          with open('lngal_data.json', 'r') as f:
+              data = json.load(f)
+
+          errors = []
+          total_links = 0
+
+          for category in data.get('categories', []):
+              for item in category.get('items', []):
+                  project_name = item.get('project_name', 'Unknown')
+                  links = item.get('links', [])
+
+                  for i, link in enumerate(links):
+                      total_links += 1
+                      # Check if link is an object
+                      if not isinstance(link, dict):
+                          errors.append(f'❌ {project_name}: Link {i+1} is not an object')
+                          continue
+                      # Check required fields
+                      if 'type' not in link:
+                          errors.append(f'❌ {project_name}: Link {i+1} missing \"type\" field')
+                      elif not isinstance(link['type'], str) or not link['type'].strip():
+                          errors.append(f'❌ {project_name}: Link {i+1} \"type\" field is empty or not a string')
+
+                      if 'url' not in link:
+                          errors.append(f'❌ {project_name}: Link {i+1} missing \"url\" field')
+                      elif not isinstance(link['url'], str) or not link['url'].strip():
+                          errors.append(f'❌ {project_name}: Link {i+1} \"url\" field is empty or not a string')
+                      else:
+                          url = link['url'].strip()
+                          # Basic URL format validation
+                          if not (url.startswith('http://') or url.startswith('https://')):
+                              errors.append(f'❌ {project_name}: Link {i+1} URL must start with http:// or https://')
+
+          if errors:
+              print(f'Found {len(errors)} link validation errors:')
+              for error in errors:
+                  print(error)
+              sys.exit(1)
+          else:
+              print(f'✅ All {total_links} project links are properly formatted')
+          "
+          echo "✅ Project links validation passed"
 
       - name: Test HTML validity
         run: |
