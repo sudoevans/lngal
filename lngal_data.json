@@ -237,8 +237,17 @@
         {
           "project_name": "Zap",
           "project_level": "Non-Custodial Wallet",
-          "links": [],
-          "tags": ["Non-Custodial", "Connects to own node"]
+          "links": [
+            {
+              "type": "Website",
+              "url": "http://zaphq.io/"
+            },
+            {
+              "type": "GitHub",
+              "url": "https://github.com/ln-zap"
+            }
+          ],
+          "tags": ["Non-Custodial", "Connects to own node", "Deprecated"]
         },
         {
           "project_name": "Electrum",
