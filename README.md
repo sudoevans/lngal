@@ -16,7 +16,7 @@ An interactive, community-maintained visualization of the Lightning Network ecos
 ## 🚀 Quick Start
 
 ### View the Gallery
-Visit the live site: [Lightning Network Gallery](https://bitdevsnbo.github.io/lngal)
+Visit the live site: [Lightning Network Gallery](https://lngal.bitdevsnbo.org)
 
 ### Add a Project
 1. Navigate to [`lngal_data.json`](lngal_data.json)
